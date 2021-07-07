@@ -1,0 +1,11 @@
+.card {
+  width: 250px;
+  height: 250px;
+
+  color: #fff;
+  font-size: 2rem;
+
+  padding: 20px;
+
+  display: flex;
+}

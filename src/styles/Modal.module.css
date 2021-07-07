@@ -1,0 +1,52 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  height: 100vh;
+
+  background-color: #0007;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fafafa;
+  color: #000;
+
+  padding: 40px 60px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: min(400px, 90%);
+  text-align: center;
+}
+
+.container button {
+  background-color: #c0392c;
+  color: #fff;
+
+  font-size: 1.5rem;
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 5px 12.5px;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+}
+
+@media (max-width: 460px) {
+  .container {
+    padding: 20px;
+  }
+}
