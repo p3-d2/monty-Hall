@@ -9,3 +9,10 @@
 
   display: flex;
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+}
